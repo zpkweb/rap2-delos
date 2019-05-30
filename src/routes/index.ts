@@ -9,5 +9,6 @@ require('./analytics')
 require('./foreign')
 require('./postman')
 require('./book')
+require('./crapApi')
 
 export default router
