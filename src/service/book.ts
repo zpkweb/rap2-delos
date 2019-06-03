@@ -9,12 +9,12 @@ export default class BookService {
     return res;
   }
   public static list(res: any) {
-    res.data = {
-      category: res.others.category,
-      categorys: res.others.categorys,
-      list: res.data,
-      page: res.page
-    }
+    // res.data = {
+    //   category: res.others.category,
+    //   categorys: res.others.categorys,
+    //   list: res.data,
+    //   page: res.page
+    // }
     return res;
   }
   public static detail(res: any) {

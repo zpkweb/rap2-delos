@@ -1,4 +1,5 @@
 import router from './router'
+import Pagination from './utils/pagination'
 import { BookModules, BookList, BookDetail } from '../request'
 
 router.get('/book/modules', async(ctx) => {
@@ -6,8 +7,10 @@ router.get('/book/modules', async(ctx) => {
 })
 
 router.get('/book/list', async(ctx) => {
-  console.log(ctx.query)
-  ctx.body = await BookList(ctx.query);
+  let bookList = await BookList(ctx.query);
+  const pagination = new Pagination(bookList.page.allRow, ctx.query.currentPage || 1, ctx.query.limit || 15)
+  bookList.page = pagination;
+  ctx.body = bookList;
 })
 
 router.get('/book/detail', async(ctx) => {
