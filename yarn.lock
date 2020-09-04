@@ -3927,10 +3927,10 @@ normalize-path@^3.0.0:
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
-notevil@^1.1.0:
-  version "1.3.1"
-  resolved "https://registry.npm.taobao.org/notevil/download/notevil-1.3.1.tgz#c5f7d689ffab67b4df22f7e07eb33333d998c363"
-  integrity sha1-xffWif+rZ7TfIvfgfrMzM9mYw2M=
+notevil@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/notevil/-/notevil-1.3.3.tgz#56b8a935d8978e0c000749621aca3928b823cb01"
+  integrity sha512-y4gR18Z2lIHeBREaZu788iii4/KLLe2jNPoZA8aEg4NWK1JwjmtjVyI3eypQKPEkOIPc++8C+byUUDc+SJDJgg==
   dependencies:
     esprima "~1.0"
     hoister "~0.0"

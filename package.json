@@ -46,7 +46,7 @@
     "node-fetch": "^2.6.0",
     "node-print": "0.0.4",
     "nodemailer": "^4.6.8",
-    "notevil": "^1.1.0",
+    "notevil": "^1.3.3",
     "path-to-regexp": "^2.2.1",
     "redis": "^2.8.0",
     "reflect-metadata": "^0.1.10",
