@@ -20,7 +20,7 @@
   "author": "bosn, nuysoft",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chalk": "^2.4.1",
     "cluster": "^0.7.7",
     "cross-env": "^5.1.1",
